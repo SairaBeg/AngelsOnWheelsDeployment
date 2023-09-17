@@ -1,0 +1,50 @@
+.DateEnlarge
+{
+    font-size: 3em;
+}
+.PersonalInfo{
+    font-size: 1.5em;
+    width: fit-content;
+    text-decoration: bold;
+}
+.willthisfix{
+    font-size: medium;
+    
+}
+.phone{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.Enlarge{
+    font-size: 2.2em;
+}
+.Enlarge2{
+    font-size: 1.2em;
+    text-align: center;
+}
+.fix{
+    text-align: center;
+}
+
+@media only screen
+and (min-width : 750px) 
+and (max-width : 1024px) {
+    .willthisFix{
+        font-size: 3em;
+    }
+}
+@media only screen
+and (min-width : 1000px) 
+and (max-width : 1440px) {
+    .Enlarge{
+        font-size: 1.5em;
+    }
+    .DateEnlarge
+{
+    font-size: 1.5em;
+}
+}
+    
+    

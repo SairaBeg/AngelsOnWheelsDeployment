@@ -1,0 +1,30 @@
+
+*{
+margin: 0;
+box-sizing: border-box;
+outline: none;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {
+    padding:3px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.issueButton{
+    margin: 4px;
+    text-align: center; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.issueBox{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

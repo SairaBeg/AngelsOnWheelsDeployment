@@ -1,0 +1,43 @@
+/* Modify the background color */
+.navbar-custom {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #333;
+}
+
+/* Add padding to links */
+.navbar-custom .navbar-nav li a {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 18px;
+    font-size: 14px;
+}
+
+/* Add hover style to links */
+.navbar-custom .navbar-nav li a:hover {
+    background-color: #870287;
+    color: white;
+}
+
+/* Remove fade effect when not hovered */
+.navbar-custom .navbar-nav li a {
+    transition: none;
+}
+
+/* Center image in navbar */
+.navbar-custom .navbar-brand img {
+    height: 40px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 10px;
+}

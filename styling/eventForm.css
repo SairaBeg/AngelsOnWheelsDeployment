@@ -1,0 +1,43 @@
+
+h2 {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p {
+    padding-top: -15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+button{
+    margin: 4px;
+    text-align: center;
+}
+.signUpButton{
+    width: 49%;
+    margin: 0  auto;
+}
+.reportButton{
+    width: 20%;
+    margin: 0  auto;
+}
+.content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-indent: 15px;
+    height: 200%;
+    background-color: #fff2c6 ;
+    border: 5px solid #a28ed4;
+    margin-bottom: -3em;
+
+}
+
+.container {
+    width:  1200px;
+    margin:  0 auto;
+    padding: 10px;
+    padding-bottom: 70px;
+    
+}
+

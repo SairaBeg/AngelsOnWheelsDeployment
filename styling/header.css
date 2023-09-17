@@ -1,0 +1,96 @@
+/* Add padding behind the nav bar */
+.buffer {
+    margin-bottom: 100px;
+}
+
+/* Modify the background color */
+.navbar-custom {
+    position: fixed; 
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 8px #888888;  
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #333;
+}
+
+/* Add padding to links */
+.navbar-custom .navbar-nav li a {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 18px;
+}
+
+/* Add hover style to links */
+.navbar-custom .navbar-nav li a:hover {
+    background-color: #870287;
+    color: white;
+}
+
+/* Remove fade effect when not hovered */
+.navbar-custom .navbar-nav li a {
+    transition: none;
+}
+
+/* Center image in navbar */
+.navbar-custom .navbar-brand img {
+    height: 40px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+   background-color: inherit;
+   color: #333;
+   padding: 16px;
+   border: none;
+}
+ 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+ 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   /*min-width: 130px;*/
+   white-space: nowrap;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+ 
+/* Links inside the dropdown */
+.dropdown-content a {
+   color: #333;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd; }
+        
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+        
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #870287; 
+    color: white;
+}
+        
+        
